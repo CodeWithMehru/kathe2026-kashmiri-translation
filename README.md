@@ -44,13 +44,9 @@ keeping the rest of the base model frozen.
 * **[BPCC (Bharat Parallel Corpus Collection)](https://huggingface.co/datasets/ai4bharat/BPCC)**,
   `bpcc-seed-latest` subset, English–Kashmiri (kas_Arab) split — 98,929 sentence pairs.
   Released by AI4Bharat, IIT Madras.
-* **[SMUQamar/Kashmiri-English-Parallel-Corpus](https://huggingface.co/datasets/SMUQamar/Kashmiri-English-Parallel-Corpus)**
-  — 29,998 sentence pairs. Qumar, S.M.U., Azim, M. & Quadri, S.M.K. "Addressing the data gap:
-  building a parallel corpus for Kashmiri language." *Int. J. Inf. Tecnol.* (2024).
-
-Combined and deduplicated total: 124,732 training pairs (train/dev split: ~123,232 / 1,500).
 
 ## Repository Structure
+
 
 ```
 load_model.py       - loads the base model + LoRA adapter from Hugging Face
@@ -88,6 +84,9 @@ containing the fine-tuned LoRA weights (see link in submission form).
 **Mehru**
 
 Developed and fine-tuned with LoRA for English → Kashmiri machine translation.
+
+[GitHub](https://github.com/CodeWithMehru) · [LinkedIn](https://www.linkedin.com/in/code-with-mehru-8267a4330) · [Portfolio](https://codewithmehru.netlify.app/)
+
 
 ## License
 
