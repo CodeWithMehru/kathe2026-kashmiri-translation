@@ -1,0 +1,9 @@
+torch
+transformers==4.44.2
+accelerate==0.34.2
+peft==0.13.2
+sentencepiece
+sacremoses
+indic-nlp-library-itt
+pandas
+IndicTransToolkit @ git+https://github.com/VarunGumma/IndicTransToolkit.git
