@@ -35,7 +35,7 @@ keeping the rest of the base model frozen.
 * LoRA rank: 16, alpha: 32, dropout: 0.05, target modules: q_proj, k_proj, v_proj, out_proj, fc1, fc2
 * Learning rate: 2e-4
 * Effective batch size: 32 (per-device batch 8, gradient accumulation 4)
-* Epochs: [FILL IN - e.g. 6]
+* Epochs: 6
 * Precision: fp16
 * Single GPU (NVIDIA T4)
 
